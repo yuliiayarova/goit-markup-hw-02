@@ -30,15 +30,6 @@ ul {
   list-style-type: none;
 }
 
-/* .visually-hidden {
-  position: absolute;
-  left: -10000px;
-  top: auto;
-  width: 1px;
-  height: 1px;
-  overflow: hidden;
-} */
-
 /* header */
 
 .logo {
@@ -85,6 +76,7 @@ ul {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
+  letter-spacing: 0.02em;
 }
 
 .button {
@@ -107,12 +99,17 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* team-section */
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-title {
+  letter-spacing: 0.02em;
 }
 
 .team-card {
@@ -123,14 +120,19 @@ ul {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* portfolio-section */
+.portfolio-title {
+  letter-spacing: 0.02em;
+}
 
 .portfolio-card-title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 
 /* footer */
